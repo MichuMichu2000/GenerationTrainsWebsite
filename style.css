@@ -1,0 +1,47 @@
+p, b, li{
+    font-family: 'Kanit', sans-serif;
+    font-size: 120%;
+}
+h1, strong{
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    background-color: brown;
+    border-radius: 2%;
+    align-content: justify;
+    margin:12px;
+    padding: 8px;
+}
+#playButton{
+    background-color: rgb(40, 134, 40);
+    border-color: rgb(40,134,40);
+    border-radius: 10%;
+    font-family: 'Kanit', sans-serif;
+    width: 200px;
+    height: 80px;
+    margin: 2px auto;
+    font-size: 180%;
+    color: white;
+}
+#playButton:hover{
+    background-color: rgb(38, 180, 38);
+    size:110%;
+    transition-duration: 400ms;
+}
+#Logo{
+    width: 320px;
+    height: 180px;
+    border-radius: 4%;
+    margin: 80px;
+}
+.logo{
+    background-image: url("background.png");
+}
+body{
+    background-color: rgb(59, 59, 59);
+}
+#devLogo{
+    max-width: 50px;
+    max-height: 50px;
+    float: right;
+}
