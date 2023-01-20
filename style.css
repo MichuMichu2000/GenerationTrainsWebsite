@@ -6,11 +6,11 @@ h1, strong{
     font-family: 'Kanit', sans-serif;
 }
 .container{
-    background-color: red;
-    border-radius: 2%;
+    background:linear-gradient(#e3292f, #aa1d1d);
+    border-radius: 20px;
     align-content: justify;
-    margin:12px;
-    padding: 8px;
+    margin:15px;
+    padding: 14px;
 }
 #playButton{
     background-color: rgb(40, 134, 40);
@@ -25,23 +25,31 @@ h1, strong{
 }
 #playButton:hover{
     background-color: rgb(38, 180, 38);
-    size:110%;
+    transform: scale(105%);
     transition-duration: 400ms;
 }
 #Logo{
     width: 320px;
     height: 180px;
     border-radius: 4%;
-    margin: 80px;
+    margin: 5%;
+    animation-name: smoothMove;
+    animation-duration: 1220ms;
 }
 .logo{
     background-image: url("background.png");
 }
 body{
-    background-color: rgb(226, 218, 218);
+    background-color: rgb(21, 20, 21);
 }
 #devLogo{
     max-width: 50px;
     max-height: 50px;
     float: right;
+}
+
+/* animations */
+@keyframes smoothMove{
+    0%{visibility: hidden; transform:translateX(-140%);}
+    100%{visibility: visible; transform:translateX(0%)}
 }
