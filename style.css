@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 p, b, li{
     font-family: 'Kanit', sans-serif;
     font-size: 120%;
@@ -5,12 +8,19 @@ p, b, li{
 h1, strong{
     font-family: 'Kanit', sans-serif;
 }
-.container{
+h1{text-align: center;}
+body{
+    background-color: rgb(21, 20, 21);
+}
+#container{
     background:linear-gradient(#e3292f, #aa1d1d);
     border-radius: 20px;
     align-content: justify;
     margin:15px;
     padding: 14px;
+    border-style: ridge;
+    border-color: #ff1040;
+    border-spacing: 2px;
 }
 #playButton{
     background-color: rgb(40, 134, 40);
@@ -22,6 +32,7 @@ h1, strong{
     margin: 2px auto;
     font-size: 180%;
     color: white;
+    border-style: ridge;
 }
 #playButton:hover{
     background-color: rgb(38, 180, 38);
@@ -39,9 +50,18 @@ h1, strong{
 .logo{
     background-image: url("background.png");
 }
-body{
-    background-color: rgb(21, 20, 21);
+nav{
+    border: ridge #ff1040;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    font-style: bold;
+    background-color: rgb(50, 50, 50);
 }
+
+h2{color:firebrick;}
+h2:hover{color:#ff1040; transform:rotateX(360deg) scale(122%); transition-duration: 1100ms;}
+
 #devLogo{
     max-width: 50px;
     max-height: 50px;
