@@ -54,7 +54,7 @@ body{
     height: 180px;
     border-radius: 4%;
     margin: 5%;
-    animation-name: smoothMove;
+    animation-name: logoMove;
     animation-duration: 1220ms;
 }
 .logo{
@@ -69,8 +69,8 @@ nav{
     background-color: rgb(50, 50, 50);
 }
 
-h2{color:firebrick;}
-h2:hover{color:#ff1040; transform:rotateX(360deg) scale(122%); transition-duration: 1100ms;}
+h2{color:firebrick; opacity: 0.85}
+h2:hover{color:#ff1040; transform:rotatey(360deg) scale(122%); opacity: 1; transition-duration: 1100ms;}
 
 #devLogo{
     max-width: 50px;
@@ -79,7 +79,7 @@ h2:hover{color:#ff1040; transform:rotateX(360deg) scale(122%); transition-durati
 }
 
 /* animations */
-@keyframes smoothMove{
+@keyframes logoMove{
     0%{visibility: hidden; transform:translateX(-140%);}
     100%{visibility: visible; transform:translateX(0%)}
 }
