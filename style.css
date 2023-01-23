@@ -31,6 +31,7 @@ body{
     border-style: ridge;
     border-color: #fc072c;
     border-spacing: 2px;
+    font-family: 'Kanit', sans-serif;
 }
 #comingsoon{
     background:linear-gradient(#b91015, #cf1f1f);
@@ -79,7 +80,7 @@ nav{
     background-color: rgb(50, 50, 50);
 }
 
-h2{color:firebrick; opacity: 0.8 text-decoration:none;}
+h2{color:firebrick; opacity: 0.8}
 h2:hover{color:#ff1040; transform:rotatey(360deg) scale(122%); opacity: 1; transition-duration: 1100ms;}
 
 #devLogo{
