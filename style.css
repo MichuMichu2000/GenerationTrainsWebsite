@@ -22,6 +22,16 @@ body{
     border-color: #ff1040;
     border-spacing: 2px;
 }
+#changelog{
+    background:linear-gradient(#b91015, #cf1f1f);
+    border-radius: 20px;
+    align-content: justify;
+    margin:15px;
+    padding: 14px;
+    border-style: ridge;
+    border-color: #fc072c;
+    border-spacing: 2px;
+}
 #comingsoon{
     background:linear-gradient(#b91015, #cf1f1f);
     border-radius: 20px;
@@ -69,7 +79,7 @@ nav{
     background-color: rgb(50, 50, 50);
 }
 
-h2{color:firebrick; opacity: 0.85}
+h2{color:firebrick; opacity: 0.8 text-decoration:none;}
 h2:hover{color:#ff1040; transform:rotatey(360deg) scale(122%); opacity: 1; transition-duration: 1100ms;}
 
 #devLogo{
