@@ -39,14 +39,13 @@ body{
     border-spacing: 2px;
 }
 #playButton{
-    border-color: rgb(40,134,40);
     border-radius: 22px;
     font-family: 'Kanit', sans-serif;
     width: 160px;
     height: 78px;
     margin: 2px auto;
     font-size: 170%;
-    border-style: ridge;
+    font-style: bold;
 }
 #playButton:hover{
     background-color: rgb(38, 180, 38);
@@ -58,10 +57,10 @@ body{
     border-radius: 4%;
     margin: 5%;
     animation-name: logoMove;
-    animation-duration: 1220ms;
+    animation-duration: 1020ms;
 }
 .logo{
-    background-image: url("https://pbs.twimg.com/media/FkTIh9LXgAEEORx?format=jpg&name=medium");
+    background-image: url("https://pbs.twimg.com/media/FiIhZAOXgAAv5MT?format=jpg&name=medium");
     background-size: 18cm 10cm;
 }
 nav{
@@ -83,14 +82,11 @@ h2:hover{color:#ff1040; transform:rotatey(360deg) scale(122%); opacity: 1; trans
 }
 #changes{
     background: linear-gradient(#FF0521, #dd151a);
-    scrollbar-track-color: #b91015;
-    scrollbar-width: 5px;
-    scrollbar-color: #222222;
     padding: 5px auto;
 }
 
 /* animations */
 @keyframes logoMove{
-    0%{visibility: hidden; transform:translateX(-140%);}
-    100%{visibility: visible; transform:translateX(0%)}
+    0%{opacity: 0.01; transform:translateX(-140%);}
+    100%{opacity: 1.0; transform:translateX(0%)}
 }
