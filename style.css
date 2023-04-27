@@ -8,6 +8,7 @@ h1{text-align: center;}
 body{
     background: url("pattern.jpg");
     font-family: 'Kanit', sans-serif;
+    text-rendering: optimizeSpeed;
 }
 #about{
     background:linear-gradient(#e3292f, #aa1d1d);
@@ -55,9 +56,10 @@ body{
     width: 320px;
     height: 180px;
     border-radius: 4%;
-    margin: 5%;
+    margin: inherit;
     animation-name: logoMove;
-    animation-duration: 1020ms;
+    animation-duration: 900ms;
+    animation-timing-function: ease-out;
 }
 .logo{
     background-image: url("https://pbs.twimg.com/media/FiIhZAOXgAAv5MT?format=jpg&name=medium");
@@ -73,7 +75,7 @@ nav{
 }
 
 h2{color:firebrick; opacity: 0.8}
-h2:hover{color:#ff1040; transform:rotatey(360deg) scale(122%); opacity: 1; transition-duration: 1100ms;}
+h2:hover{color:#ff1040; transform:rotatey(360deg) scale(122%); opacity: 1; transition-duration: 1100ms; transition-timing-function:steps(40)}
 
 #devLogo{
     max-width: 50px;
